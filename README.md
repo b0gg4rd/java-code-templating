@@ -1,6 +1,6 @@
 # Java Code Templating
 
-A simple Java code generation with engines template.
+A simple Java code generation with template engines.
 
 - [Velocity](http://velocity.apache.org/)
 - [Rocker](https://github.com/fizzed/rocker)
