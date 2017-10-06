@@ -4,7 +4,7 @@ import org.joda.time.LocalTime;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-public class VelocityJavaCodeApplication {
+public class PebbleJavaCodeApplication {
 
   private static final Logger LOGGER = LoggerFactory.getLogger(MvnJavaBuildingApplication.class);
 

@@ -1,6 +1,6 @@
 # Velocity - Java Code
 
-Java code generation with **Velocity** templates.
+Java code generation with **Velocity** template engine.
 
 ## Requirements
 
@@ -11,3 +11,4 @@ Java code generation with **Velocity** templates.
 For execute use:
 
 `$ ./mvnw clean package exec:exec`
+

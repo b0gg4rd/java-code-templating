@@ -1,0 +1,22 @@
+package ${class.package};
+
+public class ${class.name} {
+
+#foreach (${property} in ${class.properties})
+  private ${property.type} ${property.name};
+#end
+
+  public ${class.name}() {}
+
+#foreach (${property} in ${class.properties})
+  public ${property.type} get${property.name}() {
+    return ${property.name};
+  }
+
+  public ${class.name} set${property.name}(final ${property.type} ${property.name}) {
+    this.${property.name} = ${property.name};
+    return this;
+  }
+#end
+}
+

@@ -1,0 +1,28 @@
+Client:
+  type: "object"
+  required:
+  - "key"
+  properties:
+    key:
+      type: "string"
+    name:
+      type: "string"
+    age:
+      type: "integer"
+      format: "int32"
+    birthday:
+      type: "date"
+
+Order:
+  type: "object"
+  required:
+  - "key"
+  - "client"
+  properties:
+    key:
+      type: "string"
+    client:
+      type: "Client"
+    registerDate:
+      type: "date"
+  
